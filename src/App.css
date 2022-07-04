@@ -106,10 +106,20 @@
   background-color: #fff;
   border-color: rgba(41, 12, 109, 0.5) !important;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(41, 12, 109, 0.5) !important;;
+  box-shadow: 0 0 0 0.25rem rgba(41, 12, 109, 0.5) !important;
 }
 .list-unstyled li i:hover{
   color: rgba(41, 12, 109, 0.5) !important;
+}
+.border-violet{
+  border-color: rgba(41, 12, 109, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(41, 12, 109, 0.5) !important;
+}
+.border-radius-contact{
+  border-radius: 0 15px 15px 0;
+}
+.border-radius-contact-form{
+  border-radius: 15px 0 0 15px;
 }
 
 /* -----------Contact Us css end --------------- */

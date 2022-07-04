@@ -20,7 +20,7 @@ const Contact = () => {
 
           <div className='row'>
             {/* <!--Grid column--> */}
-            <div className='col-md-9 mb-md-0 mb-5'>
+            <div className='col-md-9 mb-md-0 mb-5 border-radius-contact-form border-violet p-4'>
               <form
               >
                 {/* <!--Grid row--> */}
@@ -98,7 +98,7 @@ const Contact = () => {
 
               <div className='text-center'>
                 <a
-                  className='btn btn-outline-success btn-style mt-3' style={{paddingTop: "10.5px"}}>
+                  className='btn btn-outline-success btn-style mt-3' style={{paddingTop: "10.5px", fontWeight:"bolder"}}>
                   Send
                 </a>
               </div>
@@ -107,10 +107,10 @@ const Contact = () => {
             {/* <!--Grid column--> */}
 
             {/* <!--Grid column--> */}
-            <div className='col-md-3 text-center'>
+            <div className='col-md-3 text-center border-violet border-radius-contact'>
               <ul className='list-unstyled mb-0'>
                 <li>
-                  <i className='fas fa-map-marker-alt fa-2x'></i>
+                  <i className='fas fa-map-marker-alt fa-2x pt-4'></i>
                   <p>26 Dixit Complex Hathital, Gorakhpur JABALPUR 482001</p>
                 </li>
 
@@ -119,6 +119,10 @@ const Contact = () => {
                   <p>70-0020-9293</p>
                 </li>
 
+                <li>
+                  <i className='fas fa-envelope mt-4 fa-2x'></i>
+                  <p>info@akssai.com</p>
+                </li>
                 <li>
                   <i className='fas fa-envelope mt-4 fa-2x'></i>
                   <p>info@akssai.com</p>
