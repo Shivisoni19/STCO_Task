@@ -25,6 +25,9 @@
   color: rgb(154, 134, 167) !important;
   text-shadow: 0 0.2rem 0.3rem rgb(183, 171, 255, 0.5);
 }
+.sticky-top{
+  position: sticky;
+}
 
 .btn-style {
   border: transparent;
@@ -111,9 +114,19 @@
 
 /* -----------Contact Us css end --------------- */
 
+/* -----------Data info css start --------------- */
 .bg-box{
   background-color: rgb(154, 134, 167) !important;
 }
 .border-radius{
   border-radius: 15px;
 }
+
+/* -----------Data info css end --------------- */
+
+/* -----------Home css start --------------- */
+.text-violet{
+  color: rgba(41, 12, 109, 0.5) !important;
+  font-weight: 500 !important;
+}
+/* -----------Home css start --------------- */

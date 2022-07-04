@@ -22,7 +22,8 @@ const Home = () => {
   }, [])
 
   return (
-    <div>
+    <>
+    <div className='container-fluid'>
       <table
         className='table table-bordered'
         id='dataTable'
@@ -30,7 +31,7 @@ const Home = () => {
         cellSpacing='0'
       >
         <thead>
-          <tr>
+          <tr className='table-dark'>
             <th>ID</th>
             <th>AUTHOR</th>
             <th>CONTENT</th>
@@ -56,7 +57,7 @@ const Home = () => {
             <h3>Loading...</h3>
           ) : (
             data.map(item => (
-              <tr>
+              <tr className='table-secondary'>
                 <td>
                   <Link
                     to={`/show/${item?._id}`}
@@ -65,7 +66,7 @@ const Home = () => {
                         state: { itemId: item?._id }
                       })
                     }}
-                    className='text-decoration'
+                    className='text-decoration text-violet font-weight-bold'
                   >
                     {item._id}
                   </Link>
@@ -81,7 +82,8 @@ const Home = () => {
           )}
         </tbody>
       </table>
-    </div>
+      </div>
+    </>
   )
 }
 
