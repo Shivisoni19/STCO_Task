@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+/* -------------navbar css style start--------------- */
+
+.navbar-bg {
+  background-color: rgb(243, 249, 250);
+  z-index: 99;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar li {
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar li a {
+  font-size: 1rem;
+  font-weight: normal;
+  position: relative;
+}
+
+.navbar li a:hover {
+  color: rgb(154, 134, 167) !important;
+  text-shadow: 0 0.2rem 0.3rem rgb(183, 171, 255, 0.5);
+}
+
+.btn-style {
+  border: transparent;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
   color: white;
+  background-color: rgba(41, 12, 109, 0.5);
+  text-transform: capitalize;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-style:first-child {
+  margin-right: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-style:hover {
+  border: rgba(41, 12, 109, 0.5) !important;
+  background-color: transparent;
+  color: rgba(41, 12, 109, 0.5);
+  box-shadow: 0 0.2rem 0.5rem rgb(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+  border: 0.1rem solid rgba(41, 12, 109, 0.5);
+  background-color: transparent;
+  color: rgba(41, 12, 109, 0.5);
+  box-shadow: 0 0.2rem 0.5rem rgb(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: white;
+  background-color: rgba(41, 12, 109, 0.5);
+  text-transform: capitalize;
+}
+/* -------------navbar css style end-------------------------*/
+/* -------------About css start  --------------*/
+.about {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+.about-head{
+    padding-top: 5em;
+    position: absolute;
+    z-index: 1;
+    font-weight: bolder;
+    /* text-shadow: violet; */
+    /* color:  rgba(7, 7, 7, 0.5); */
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.text-head{
+  display: flex;
+  justify-content: center;
+}
+/* -------------About css end  --------------*/
+
+/* -----------Footer css start --------------- */
+.footer-bottom-bg{
+  background-color: rgb(154, 134, 167) !important;
+}
+.text-decoration{
+  text-decoration: none;
+}
+.footer a:hover{
+  color: rgba(41, 12, 109, 0.5) !important;
+}
+.footer-left p:hover{
+  color: rgba(41, 12, 109, 0.5) !important;
+}
+/* -----------Footer css end --------------- */
+
+/* -----------Contact Us css start --------------- */
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgba(41, 12, 109, 0.5) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(41, 12, 109, 0.5) !important;;
+}
+.list-unstyled li i:hover{
+  color: rgba(41, 12, 109, 0.5) !important;
+}
+
+/* -----------Contact Us css end --------------- */
+
+.bg-box{
+  background-color: rgb(154, 134, 167) !important;
+}
+.border-radius{
+  border-radius: 15px;
 }
